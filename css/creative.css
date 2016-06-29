@@ -176,11 +176,14 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
 }
 header .header-content .header-content-inner p.subtitle {
-  font-size: 24px;
-  margin-bottom: 12px;
+  font-size: 20px;
+  margin-bottom: 40px;
 }
 header .header-content .header-content-inner p.cta-button {
   margin-bottom: 32px;
+}
+header .btn {
+  text-transform: none;
 }
 @media (min-width: 768px) {
   header {
@@ -204,6 +207,10 @@ header .header-content .header-content-inner p.cta-button {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+  header .header-content .header-content-inner p.subtitle {
+    font-size: 24px;
+    margin-bottom: 16px;
   }
 }
 .section-heading {
@@ -437,6 +444,10 @@ fieldset[disabled] .btn-secondary.active {
   text-transform: uppercase;
 }
 .btn-xl {
+  padding: 15px 30px;
+}
+.btn-xxl {
+  font-size: large;
   padding: 15px 30px;
 }
 ::-moz-selection {
