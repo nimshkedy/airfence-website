@@ -175,6 +175,10 @@ header .header-content .header-content-inner p {
   font-size: 16px;
   margin-bottom: 50px;
 }
+header .header-content .header-content-inner p.pretitle {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
 header .header-content .header-content-inner p.subtitle {
   font-size: 20px;
   margin-bottom: 40px;
@@ -186,7 +190,7 @@ header .btn {
   text-transform: none;
 }
 div .cta-buttons {
-  margin: 50px 0;
+  margin-top: 50px;
 }
 div .cta-buttons .btn {
   text-transform: none;
