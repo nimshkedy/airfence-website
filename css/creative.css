@@ -86,6 +86,9 @@ img.navbar-icon {
 #wuf-adv {
   display: none !important;
 }
+#bookModal .wufoo .info h2 {
+  display: none !important;
+}
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
