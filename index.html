@@ -133,7 +133,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center cta-buttons">
-                    <p class="cta-button"><a href="#about" class="btn btn-primary btn-xxl page-scroll">Watch Video Demonstration</a></p>
+                    <p class="cta-button"><a href="#about" class="btn btn-primary btn-xxl page-scroll">Book a Live Demonstration</a></p>
                     <p class="cta-button"><a href="#how-it-works" class="btn btn-secondary btn-xl page-scroll">Watch Video Demonstration</a></p>
                 </div>
             </div>
@@ -158,10 +158,45 @@
 
 
     <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">More Available Features</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-map-marker text-primary sr-icons"></i>
+                        <h3>Locates Drones &amp; Their Operators</h3>
+                        <p class="text-muted">AirFence estimates the location of the detected drones and their operators, allowing your security team to assess the risk.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-user-secret text-primary sr-icons"></i>
+                        <h3>Collects Drone Forensics</h3>
+                        <p class="text-muted">AirFence finds the unique identifiers of most drones, allowing law enforcement agencies to hunt irresposible operators.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-download text-primary sr-icons"></i>
+                        <h3>Commands Unwanted Drones To Land</h3>
+                        <p class="text-muted">AirFence takes control of supported drones and sends them a "go home" command, disconnecting the original operator and forcing them to land safely.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center cta-buttons">
+                    <p class="cta-button"><a href="#about" class="btn btn-primary btn-xxl page-scroll btn-book-demo">Book a Live Demonstration</a></p>
+                    <p class="cta-button"><a href="#how-it-works" class="btn btn-secondary btn-xl page-scroll">Watch Video Demonstration</a></p>
+                </div>
             </div>
         </div>
     </aside>
@@ -197,7 +232,7 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/videoLighning.min.js"></script>
+    <script src="js/videoLightning.min.js"></script>
     <script>
         $(function() {
             $(".video-link").jqueryVideoLightning({
@@ -211,6 +246,18 @@
     </script>
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+<script type="text/javascript">
+  function showMailingPopUp() {
+      require(["mojo/signup-forms/Loader"], function(L) { L.start(
+  {"baseUrl":"mc.us13.list-manage.com","uuid":"f519ff3e1abb369ccca174851","lid":"da13b75460"}
+  ) })
+  };
+
+  $(".btn-book-demo").click = function() {showMailingPopUp()};
+</script>
 
 </body>
 
