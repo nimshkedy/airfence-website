@@ -83,6 +83,9 @@ img.navbar-icon {
   background: rgba(255, 255, 255, 0.6);
   padding: 1px;
 }
+#wuf-adv {
+  display: none !important;
+}
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);

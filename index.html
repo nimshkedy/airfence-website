@@ -83,7 +83,7 @@
                     ApolloShield sends unauthorized drones a "go home" command.<br>
                     <span>The best part?</span> There's absolutely no training required.
                 </p>
-                <p class="cta-button"><a href="#about" class="btn btn-primary btn-xxl page-scroll">Book a Live Demonstration</a></p>
+                <p class="cta-button"><a href="#about" class="btn btn-primary btn-xxl page-scroll" data-toggle="modal" data-target="#bookModal">Book a Live Demonstration</a></p>
                 <p class="cta-button"><a href="#how-it-works" class="btn btn-secondary btn-xl page-scroll">Learn How AirFence Works</a></p>
             </div>
         </div>
@@ -201,6 +201,7 @@
         </div>
     </aside>
 
+
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -220,6 +221,44 @@
             </div>
         </div>
     </section>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="bookModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
+<div id="wufoo-zrs70981gcdvvg">
+Fill out my <a href="https://airfence.wufoo.com/forms/zrs70981gcdvvg">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div>
+<script type="text/javascript">var zrs70981gcdvvg;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'airfence',
+'formHash':'zrs70981gcdvvg',
+'autoResize':true,
+'height':'560',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { zrs70981gcdvvg = new WufooForm();zrs70981gcdvvg.initialize(options);zrs70981gcdvvg.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -246,18 +285,6 @@
     </script>
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
-
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-
-<script type="text/javascript">
-  function showMailingPopUp() {
-      require(["mojo/signup-forms/Loader"], function(L) { L.start(
-  {"baseUrl":"mc.us13.list-manage.com","uuid":"f519ff3e1abb369ccca174851","lid":"da13b75460"}
-  ) })
-  };
-
-  $(".btn-book-demo").click = function() {showMailingPopUp()};
-</script>
 
 </body>
 
