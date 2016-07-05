@@ -331,6 +331,22 @@ div .cta-buttons .btn {
 .text-primary {
   color: #f05f40;
 }
+.bg-primary .text-primary {
+  color: #333;
+}
+.bg-primary .text-muted {
+  color: #fce0d9;
+  font-weight: 100;
+}
+.bg-primary hr {
+  border-color: #333;
+}
+.bg-primary .btn-secondary {
+  background-color: #333;
+}
+.bg-primary .btn-secondary:hover {
+  background-color: #555;
+}
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
